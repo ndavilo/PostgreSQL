@@ -26,3 +26,17 @@ id	password	last_login	                      username	        email
 1	$Xj...	2022-06-04 12:59:54.037000+00:00	chukwunonsodavid	nonsoilonze@gmail.com
 
 The author_id in Table 1 is related to Table 2 by the id number 1.
+
+
+SQL Joins: are statements used to combine data or rows from two or more tables based on a common field between them.
+
+Types of SQL joins: Inner Join, Left Join, Right Join, Full Join. 
+
+Inner Join: returns those records which have matching values in both tables. FROM table1 INNER JOIN table2.
+
+Left Join: returns all the records from the left table and also those records which satisfy a condition from the right table. FROM table1 LEFT JOIN table2
+
+Right Join: returns all the records from the right table and also those records which satisfy a condition from the left table. FROM table1 RIGHT JOIN table2
+
+Full Join: returns all the rows from both the tables. FROM table1 LEFT JOIN table2
+
